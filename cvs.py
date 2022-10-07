@@ -21,3 +21,18 @@ training_data['Anti-Glare Filter'].unique()
 training_data = training_data.replace(to_replace='yes', value=0)
 training_data = training_data.replace(to_replace='no', value=1)
 training_data
+
+# plotting the points
+plt.plot(X, y)
+ 
+# naming the x axis
+plt.xlabel('Symptoms')
+# naming the y axis
+plt.ylabel('CVS')
+ 
+# giving a title to my graph
+plt.title('GRAPH SHOWING CVS AMONGST INDIVIDUAL')
+ 
+# function to show the plot
+plt.show()
+#overall data graph 
